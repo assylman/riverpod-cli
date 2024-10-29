@@ -1,5 +1,5 @@
 {
-  "name": "riverpod-cli",
+  "name": "@assylman/riverpod-cli",
   "author": "Nurassyl Nuridin",
   "description": "nodejs cli for creating well structured flutter riverpod folders and files needed to work with Riverpod plugin",
   "bin": {

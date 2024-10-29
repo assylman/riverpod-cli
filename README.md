@@ -19,7 +19,7 @@ Note that you will need to install:
 To download and install the Riverpod CLI run the following command:
 
 ```bash
-npm install -g riverpod-cli
+npm install -g @assylman/riverpod-cli
 ```
 
 ## Commands
