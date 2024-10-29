@@ -6,12 +6,13 @@
     "riverpod-cli": "./dist/index.js"
   },
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "tsc -w",
     "build": "npx tsc"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "@types/node": "^22.8.1",
     "typescript": "^5.6.3"
   },
@@ -19,5 +20,10 @@
     "commander": "^12.1.0"
   },
   "license": "MIT",
-  "keywords": ["riverpod", "dart", "flutter", "provider"]
+  "keywords": [
+    "riverpod",
+    "dart",
+    "flutter",
+    "provider"
+  ]
 }
