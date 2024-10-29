@@ -1,0 +1,24 @@
+{
+  "name": "riverpod-cli",
+  "author": "Nurassyl Nuridin",
+  "description": "nodejs cli for creating well structured flutter riverpod folders and files needed to work with Riverpod plugin",
+  "bin": {
+    "riverpod-cli": "./dist/index.js"
+  },
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "link-cli": "yarn --global unlink riverpod-cli && yarn --global link",
+    "dev": "tsc -w",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "license": "MIT",
+  "keywords": ["riverpod", "dart", "flutter", "provider"]
+}
