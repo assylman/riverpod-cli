@@ -8,7 +8,6 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "link-cli": "yarn --global unlink riverpod-cli && yarn --global link",
     "dev": "tsc -w",
     "build": "npx tsc"
   },

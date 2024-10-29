@@ -2,9 +2,16 @@ import fs from 'fs';
 import os from 'os';
 import { Imports } from '.';
 
+const flutterSdk = 'sdk: flutter';
 
 export function getInformationFromPubspec(name: string, options: any) {
     const pubspecFile = './pubspec.yaml';
+
+    /// check if project has pubspec.yaml file
+    if (!fs.existsSync(pubspecFile)) {
+        throw Error('Cannot find pubspec.yaml file. Probably it\'s not a flutter project. Aborted...');
+    }
+
     const data = fs.readFileSync(pubspecFile, { encoding: 'utf-8' });
     const splittedData = data.split(os.EOL);
 
