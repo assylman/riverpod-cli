@@ -1,4 +1,4 @@
-# Riverpod CLI [![Actions Status][gh-actions-badge]][gh-actions] [![Node Version][node-badge]][npm] [![NPM version][npm-badge]][npm]
+# Riverpod CLI
 
 The Riverpod Command Line Interface (CLI) Tools is created for skipping the boilerplate files generation when using riverpod plugin - https://riverpod.dev.
 
@@ -26,7 +26,8 @@ npm install -g riverpod-cli
 
 **The command `riverpod-cli --help` lists the available commands and `riverpod-cli <command> --help` shows more details for an individual command.**
 
-Use this cli inside you flutter projects directory!!!
+
+***Use this cli inside you flutter projects directory!!!***
 
 
 ### Configuration Commands
@@ -46,7 +47,7 @@ First four commands need a required parameter, which is a feature name.
 
 | Parameter           |                                                                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| **-t**              | Default features directory is /lib/features, but with this flag you can set the different directory                                        |
+| **-t**              | Default features directory is `/lib/features``, but with this flag you can set the different directory                                     |
 | **-i**              | With this flag the CLI generates index barrel files.                                                                                       |
 | **--use-imports**   | By default, CLI uses `absolute` imports. Set this parameter to `relative`, in order to use relatice imports.                               |
 
